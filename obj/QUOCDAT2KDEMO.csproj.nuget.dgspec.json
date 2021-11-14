@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {}
+    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {}
   },
   "projects": {
-    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {
+    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
+        "projectUniqueName": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
         "projectName": "QUOCDAT2KDEMO",
-        "projectPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
+        "projectPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\",
+        "outputPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,6 +39,22 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SQLite": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
