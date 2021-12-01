@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "G0f4rAUXzE/2ZOc6lsBmmD9jacz/NiuvCCARdMHnatJaOpY4Jm2DbihojZzrX+3UEH3J5B/8t5+o0b3CS1/+nA==",
+  "dgSpecHash": "X8VeFhm17A+zaZKibBFIAtGrc3jodtvbblYmooNo0e6Trv1g3AvE8arXwmkoHS3t/zPg0/KILv0iStkP2o7bmg==",
   "success": true,
-  "projectFilePath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
+  "projectFilePath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

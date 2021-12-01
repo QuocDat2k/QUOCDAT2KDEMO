@@ -1,6 +1,6 @@
-namespace MvcStudent.Models
+namespace dotnet.Models
 {
-    public class Student
+    public class Student 
     {
      
         public string? StudentID { get; set; }

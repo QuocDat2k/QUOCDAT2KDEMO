@@ -1,5 +1,5 @@
 {
-  "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
+  "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "6.0",
@@ -16298,43 +16298,43 @@
   "RootNamespace": "QUOCDAT2KDEMO",
   "Documents": [
     {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\_ViewImports.cshtml",
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\Views\\Index.cshtml",
-      "TargetPath": "Views\\Views\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\Home\\Index.cshtml",
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\Views\\Index.cshtml",
+      "TargetPath": "Views\\Views\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "e:\\NETCORE\\QUOCDAT2KDEMO\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }
   ],

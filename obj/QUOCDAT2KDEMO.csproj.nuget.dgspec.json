@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {}
+    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {}
   },
   "projects": {
-    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {
+    "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
+        "projectUniqueName": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
         "projectName": "QUOCDAT2KDEMO",
-        "projectPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
+        "projectPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\QUOCDAT2KDEMO\\obj\\",
+        "outputPath": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

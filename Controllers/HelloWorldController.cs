@@ -14,7 +14,7 @@ namespace MvcMovie.Controllers
         }
 
         // 
-        // GET: /HelloWorld/Welcome/ 
+        // GET: /HelloWorld/Welcome///// 
 
         public string Welcome()
         {

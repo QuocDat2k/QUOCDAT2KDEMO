@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcProduct.Models
+namespace dotnet.Models
 {
     public class Product
     {

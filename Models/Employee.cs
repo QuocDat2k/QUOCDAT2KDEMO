@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcEmployee.Models
+namespace dotnet.Models
 {
     public class Employee
     {
