@@ -1,27 +1,30 @@
-var builder = WebApplication.CreateBuilder(args);
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using dotnet.Models;
+namespace dotnet.Data
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    public class MvcMovieContext : DbContext
+    {
+        public MvcMovieContext(DbContextOptions<MvcMovieContext> options)
+            : base(options)
+        {
+        }
+
+        public DbSet<Movie> Movie { get; set; }
+
+        public DbSet<Student> Student { get; set; }
+        public DbSet<KhachHang> khachHangs { get; set; }
+        public DbSet<HoaDon> hoaDons { get; set; }
+
+        public DbSet<Person> People { get; set; }
+
+        public DbSet<Employee> Employee { get; set; }
+
+        public DbSet<Product> Product { get; set; }
+
+        public DbSet<NhanVien> NhanVien { get; set; }
+    }
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();

@@ -20,30 +20,30 @@ namespace dotnet.Controllers
         }
 
         // GET: Movie
-        // public async Task<IActionResult> Index(string loaidachon, string searchString)
-        // {
-        //     IQueryable<string> genreQuery = from m in _context.Movie
-        //                                     orderby m.Genre
-        //                                     select m.Genre;
+        public async Task<IActionResult> Index(string loaidachon, string searchString)
+        {
+            IQueryable<string> genreQuery = from m in _context.Movie
+                                            orderby m.Genre
+                                            select m.Genre;
 
-        //     var mv = from m in _context.Movie select m;
-        //     if (!String.IsNullOrEmpty(searchString))
-        //     {
-        //         mv = mv.Where(s => s.Title.ToLower().Contains(searchString.ToLower()));
-        //     }
-        //     if (!string.IsNullOrEmpty(loaidachon))
-        //     {
-        //         mv = mv.Where(x => x.Genre == loaidachon);
-        //     }
+            var mv = from m in _context.Movie select m;
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                mv = mv.Where(s => s.Title.ToLower().Contains(searchString.ToLower()));
+            }
+            if (!string.IsNullOrEmpty(loaidachon))
+            {
+                mv = mv.Where(x => x.Genre == loaidachon);
+            }
 
-        //     var movieGenreVM = new MovieGenreViewModel
-        //     {
-        //         ds = new SelectList(await genreQuery.Distinct().ToListAsync()),
-        //         Movies = await mv.ToListAsync()
-        //     };
+            var movieGenreVM = new MovieGenreViewModel
+            {
+                ds = new SelectList(await genreQuery.Distinct().ToListAsync()),
+                Movies = await mv.ToListAsync()
+            };
 
-        //     return View(movieGenreVM);
-        // }
+            return View(movieGenreVM);
+        }
 
         // GET: Movie/Details/5
         public async Task<IActionResult> Details(int? id)
