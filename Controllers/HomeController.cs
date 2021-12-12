@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using dotnet.Models;
+using QUOCDAT2KDEMO.Models;
 
-namespace dotnet.Controllers
+namespace QUOCDAT2KDEMO.Controllers
 {
     public class HomeController : Controller
     {

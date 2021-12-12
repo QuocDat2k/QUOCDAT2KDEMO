@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text.RegularExpressions;
 using System;
 
-namespace dotnet.Models
+namespace QUOCDAT2KDEMO.Models
 {
     public class MovieGenreViewModel
     {

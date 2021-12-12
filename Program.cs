@@ -1,30 +1,43 @@
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using QUOCDAT2KDEMO.Data;
+using QUOCDAT2KDEMO.Models;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using dotnet.Models;
-namespace dotnet.Data
+
+namespace QUOCDAT2KDEMO
 {
-    public class MvcMovieContext : DbContext
+    public class Program
     {
-        public MvcMovieContext(DbContextOptions<MvcMovieContext> options)
-            : base(options)
+        public static void Main(string[] args)
         {
+            var host = CreateHostBuilder(args).Build();
+
+            using (var scope = host.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+
+                try
+                {
+                    SeedData.Initialize(services);
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred seeding the DB.");
+                }
+            }
+
+            host.Run();
+
         }
 
-        public DbSet<Movie> Movie { get; set; }
-
-        public DbSet<Student> Student { get; set; }
-        public DbSet<KhachHang> khachHangs { get; set; }
-        public DbSet<HoaDon> hoaDons { get; set; }
-
-        public DbSet<Person> People { get; set; }
-
-        public DbSet<Employee> Employee { get; set; }
-
-        public DbSet<Product> Product { get; set; }
-
-        public DbSet<NhanVien> NhanVien { get; set; }
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                });
     }
 }

@@ -1,6 +1,6 @@
 using System;
 
-namespace dotnet.Models
+namespace QUOCDAT2KDEMO.Models
 {
     public class ErrorViewModel
     {

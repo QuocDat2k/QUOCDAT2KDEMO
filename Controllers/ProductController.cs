@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using dotnet.Data;
-using dotnet.Models;
+using QUOCDAT2KDEMO.Data;
+using QUOCDAT2KDEMO.Models;
 
-namespace dotnet.Controllers
+namespace QUOCDAT2KDEMO.Controllers
 {
     public class ProductController : Controller
     {

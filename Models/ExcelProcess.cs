@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
-using OfficeOpenXml;
-namespace dotnet.Models.Process
+namespace QUOCDAT2KDEMO.Models
 {
     public class ExcelProcess
     {

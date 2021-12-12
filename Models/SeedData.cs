@@ -1,10 +1,10 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using dotnet.Data;
+using QUOCDAT2KDEMO.Data;
 using System;
 using System.Linq;
 
-namespace dotnet.Models
+namespace QUOCDAT2KDEMO.Models
 {
     public static class SeedData
     {

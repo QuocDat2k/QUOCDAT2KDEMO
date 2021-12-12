@@ -1,7 +1,10 @@
- 
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using dotnet.Models;
-namespace dotnet.Data
+using QUOCDAT2KDEMO.Models;
+namespace QUOCDAT2KDEMO.Data
 {
     public class MvcMovieContext : DbContext
     {
@@ -13,10 +16,15 @@ namespace dotnet.Data
         public DbSet<Movie> Movie { get; set; }
 
         public DbSet<Student> Student { get; set; }
-        public DbSet<Product> khachHangs { get; set; }
+        public DbSet<KhachHang> khachHangs { get; set; }
+        public DbSet<HoaDon> hoaDons { get; set; }
 
-        public DbSet<Person> Persons { get; set; }
+        public DbSet<Person> People { get; set; }
 
-        public DbSet<Employee> Employees { get; set; }
+        public DbSet<Employee> Employee { get; set; }
+
+        public DbSet<Product> Product { get; set; }
+
+        public DbSet<NhanVien> NhanVien { get; set; }
     }
 }

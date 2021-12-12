@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace dotnet.Models
+namespace QUOCDAT2KDEMO.Models
 {
     [Table("KhachHang")]
     public class KhachHang

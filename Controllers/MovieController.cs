@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using dotnet.Models;
-using dotnet.Data;
+using QUOCDAT2KDEMO.Models;
+using QUOCDAT2KDEMO.Data;
 
-namespace dotnet.Controllers
+namespace QUOCDAT2KDEMO.Controllers
 {
     public class MovieController : Controller
     {
