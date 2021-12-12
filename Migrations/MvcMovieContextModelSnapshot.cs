@@ -3,9 +3,9 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using dotnet.Data;
+using QUOCDAT2KDEMO.Data;
 
-namespace dotnet.Migrations
+namespace QUOCDAT2KDEMO.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
     partial class MvcMovieContextModelSnapshot : ModelSnapshot

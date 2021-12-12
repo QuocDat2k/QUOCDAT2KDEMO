@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace dotnet.Migrations
+namespace QUOCDAT2KDEMO.Migrations
 {
     public partial class Update_Table_1 : Migration
     {

@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace dotnet.Migrations
+namespace QUOCDAT2KDEMO.Migrations
 {
     public partial class Create_Table : Migration
     {

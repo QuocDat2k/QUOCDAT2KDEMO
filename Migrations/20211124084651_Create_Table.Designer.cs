@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using dotnet.Data;
+using QUOCDAT2KDEMO.Data;
 
-namespace dotnet.Migrations
+namespace QUOCDAT2KDEMO.Migrations
 {
     [DbContext(typeof(MvcMovieContext))]
     [Migration("20211124084651_Create_Table")]
