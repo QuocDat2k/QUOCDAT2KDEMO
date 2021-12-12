@@ -561,9 +561,7 @@ E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\QUOCDAT2KDEMO.RazorAssemblyInfo.cache
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\QUOCDAT2KDEMO.RazorAssemblyInfo.cs
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\staticwebassets.build.json
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\staticwebassets.development.json
-E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\scopedcss\bundle\QUOCDAT2KDEMO.styles.css
-E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\scopedcss\projectbundle\QUOCDAT2KDEMO.bundle.scp.css
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\QUOCDAT2KDEMO.dll
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\ref\QUOCDAT2KDEMO.dll
 E:\NETCORE\QUOCDAT2KDEMO\obj\Debug\net6.0\QUOCDAT2KDEMO.pdb

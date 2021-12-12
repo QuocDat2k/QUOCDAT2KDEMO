@@ -1,12 +1,8 @@
-﻿public async Task<IActionResult> Index(string searchString)
-{
-    var movies = from m in _context.Movie
-                 select m;
-
-    if (!String.IsNullOrEmpty(searchString))
-    {
-        movies = movies.Where(s => s.Title!.Contains(searchString));
-    }
-
-    return View(await movies.ToListAsync());
+﻿@{
+    ViewData["Title"] = "Home Page";
 }
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>

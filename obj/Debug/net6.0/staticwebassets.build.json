@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IPMbnClwkOem1Gcq5s5UgYKpvKmLj3VgglUfgGWEEvw=",
+  "Hash": "Q8tQdQaA1Vk47WckW/rdJJNPK45v0V0qspRUw2v6040=",
   "Source": "QUOCDAT2KDEMO",
   "BasePath": "_content/QUOCDAT2KDEMO",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\Debug\\net6.0\\scopedcss\\bundle\\QUOCDAT2KDEMO.styles.css",
-      "SourceId": "QUOCDAT2KDEMO",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/QUOCDAT2KDEMO",
-      "RelativePath": "QUOCDAT2KDEMO.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\Debug\\net6.0\\scopedcss\\bundle\\QUOCDAT2KDEMO.styles.css"
-    },
-    {
-      "Identity": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\QUOCDAT2KDEMO.bundle.scp.css",
-      "SourceId": "QUOCDAT2KDEMO",
-      "SourceType": "Computed",
-      "ContentRoot": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/QUOCDAT2KDEMO",
-      "RelativePath": "QUOCDAT2KDEMO.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\NETCORE\\QUOCDAT2KDEMO\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\QUOCDAT2KDEMO.bundle.scp.css"
-    },
     {
       "Identity": "E:\\NETCORE\\QUOCDAT2KDEMO\\wwwroot\\css\\site.css",
       "SourceId": "QUOCDAT2KDEMO",

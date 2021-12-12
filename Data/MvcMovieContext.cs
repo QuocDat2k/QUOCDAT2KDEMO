@@ -21,8 +21,6 @@ namespace QUOCDAT2KDEMO.Data
 
         public DbSet<Person> People { get; set; }
 
-        public DbSet<Employee> Employee { get; set; }
-
         public DbSet<Product> Product { get; set; }
 
         public DbSet<NhanVien> NhanVien { get; set; }
